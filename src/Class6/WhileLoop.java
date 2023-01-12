@@ -18,6 +18,11 @@ public class WhileLoop {
             number1+=5;
 
         }
+        int number2=5;
+        while (number2<=25){
+            System.out.println(number2);
+            number2+=5;
+        }
 
     }
 }
