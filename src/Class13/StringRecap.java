@@ -8,7 +8,8 @@ public class StringRecap {
 
         }
 
-
+        // what is the input to the charAt() method its int out is a char
+        // count how many times the letter a has appeared in the above String
 
         int count=0;
         for (int i = 0; i < str.length(); i++) {

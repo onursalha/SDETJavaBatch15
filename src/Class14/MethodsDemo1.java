@@ -21,5 +21,14 @@ public class MethodsDemo1 {
             sum2+=number;
         }
         System.out.println(sum2);
+
+        int [] array3={10,10,15,20,30};
+
+        sum2=0;
+        for (int number:array3){
+            sum2+=number;
+        }
+        System.out.println(sum2);
     }
-}
+    }
+

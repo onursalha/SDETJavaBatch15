@@ -8,10 +8,9 @@ public class PersonTester {
        // System.out.println(person.bankBalance);
         System.out.println(person.address);
         System.out.println(person.name);
-
-
-        Scanner scanner=new Scanner(System.in);
-        scanner.next();
+        person.printSSN();
+        person.printTikTokAccount();
+        
 
     }
 }

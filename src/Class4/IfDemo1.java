@@ -18,7 +18,8 @@ public class IfDemo1 {
         }
 
         String name = "Onur";
-        if (name == "Onur") {
+
+        if (name.equals("Onur")) {
             System.out.println("I love football");
         }
 

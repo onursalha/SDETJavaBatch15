@@ -1,12 +1,13 @@
 package Class14;
 
+import java.util.Scanner;
+
 public class ReturnDemo2 {
 
-    String method1(){
-        return"Hello World";
+    public static void main(String[] args) {
 
-    }
-    int method2(){
-        return 20;
+        Scanner scanner=new Scanner(System.in);
+        int num=scanner.nextInt();
+        System.out.println(num);
     }
 }

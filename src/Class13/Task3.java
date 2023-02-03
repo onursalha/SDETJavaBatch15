@@ -2,6 +2,7 @@ package Class13;
 
 public class Task3 {
     public static void main(String[] args) {
+
         String dadsName="Daniel";
         String momsName="Mary";
         String expectation="girl";

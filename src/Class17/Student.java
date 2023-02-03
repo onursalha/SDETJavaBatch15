@@ -5,7 +5,7 @@ public class Student {
     String id;
     int age;
     double weight;
-    Student(String sName,String sId,int sAge,double sWeight){
+    public Student(String sName,String sId,int sAge,double sWeight){
         id=sId;
         name=sName;
         age=sAge;

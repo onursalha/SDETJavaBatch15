@@ -3,9 +3,13 @@ package Class14;
 import java.util.Scanner;
 
 public class ReturnDemoTester {
+
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        int num=scanner.nextInt();
-        System.out.println(num);
+        ReturnDemo rd = new ReturnDemo();
+
+        String str = rd.method1();
+        System.out.println(str);
+        int result = rd.method2();
+        System.out.println(result);
     }
 }
