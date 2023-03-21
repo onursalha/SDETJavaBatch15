@@ -5,7 +5,7 @@ public class IfElseIfConditionDemo4 {
 
     public static void main(String[] args) {
         int number1=10;
-        int number2=10;
+        int number2=20;
         /*
         if number1 is equal to number2 on console => Numbers are equal
         if number1>number2 => Number1 is greater than number2
